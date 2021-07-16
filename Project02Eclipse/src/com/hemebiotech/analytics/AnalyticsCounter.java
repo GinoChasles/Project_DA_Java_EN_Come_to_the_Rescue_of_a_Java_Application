@@ -15,7 +15,7 @@ public class AnalyticsCounter {
 
 		List<String> result = new ReadSymptomDataFromFile(filepath).GetSymptoms();
 		List<String> result2 = new FilterSymptomsData(result).FilterSymptoms();
-		new WriteSymptomData(result2).WriteFile();
+		new WriteSymptomDataToANewFile(result2).WriteFile();
 
 
 	}

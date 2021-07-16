@@ -7,14 +7,14 @@ import java.util.List;
 /**
  * Implementation to write the result in a file result.out
  */
-public class WriteSymptomData implements ISymptomWriter {
+public class WriteSymptomDataToANewFile implements ISymptomWriter {
 
     private List<String> symptoms;
 
     /**
      * @param symptoms a list of lines to save in a file.
      */
-    public WriteSymptomData(List<String> symptoms) {
+    public WriteSymptomDataToANewFile(List<String> symptoms) {
         this.symptoms = symptoms;
     }
 

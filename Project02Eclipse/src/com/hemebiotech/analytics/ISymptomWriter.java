@@ -1,8 +1,9 @@
 package com.hemebiotech.analytics;
 
-import java.util.List;
+import java.io.BufferedWriter;
+import java.io.IOException;
 
 public interface ISymptomWriter {
 
-    void WriteFile ();
+    void WriteFile () throws IOException;
 }

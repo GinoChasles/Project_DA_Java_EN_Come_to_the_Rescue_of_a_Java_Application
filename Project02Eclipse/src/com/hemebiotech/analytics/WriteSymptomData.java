@@ -1,7 +1,5 @@
 package com.hemebiotech.analytics;
 
-import java.io.BufferedWriter;
-import java.io.FileWriter;
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Paths;
@@ -18,7 +16,7 @@ public class WriteSymptomData implements ISymptomWriter {
     @Override
     public void WriteFile() throws IOException {
 
-        Files.write(Paths.get("resultOut.out"), symptoms);
+        Files.write(Paths.get("result.out"), symptoms);
 //        if (symptoms != null) {
 //            try {
 //                BufferedWriter fileOut = new BufferedWriter(new FileWriter("Project02Eclipse/resultOut.txt"));
@@ -26,6 +24,7 @@ public class WriteSymptomData implements ISymptomWriter {
 //                    fileOut.write(symptom);
 //                    fileOut.newLine();
 //                }
+//                    fileOut.close();
 //            } catch (IOException e) {
 //                e.printStackTrace();
 //            }

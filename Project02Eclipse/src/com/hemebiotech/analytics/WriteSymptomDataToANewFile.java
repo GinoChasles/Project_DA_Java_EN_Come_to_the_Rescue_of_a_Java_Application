@@ -10,7 +10,6 @@ import java.util.List;
 public class WriteSymptomDataToANewFile implements ISymptomWriter {
 
     private List<String> symptoms;
-
     /**
      * @param symptoms a list of lines to save in a file.
      */
@@ -22,8 +21,6 @@ public class WriteSymptomDataToANewFile implements ISymptomWriter {
     public void WriteFile() throws IOException {
 
         Files.write(Paths.get("result.out"), symptoms);
-
-
         /**
          *
          * The first logic used and optimized from the source code
@@ -34,17 +31,12 @@ public class WriteSymptomDataToANewFile implements ISymptomWriter {
         /**
          * @param fileOut a file to create in the package Projet02Eclipse
          * */
-
 //        for (String symptom : symptoms) {
 //            fileOut.write(symptom);
 //            fileOut.newLine();
 //        }
-//
 //        fileOut.close();
 //    } catch(
-//    IOException e)
-//
-//    {
-//        e.printStackTrace();
+//    IOException e){e.printStackTrace();}
     }
 }

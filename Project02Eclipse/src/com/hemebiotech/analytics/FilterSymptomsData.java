@@ -20,7 +20,7 @@ public class FilterSymptomsData implements ISymptomsFilter{
      * The list is then sorted alphabetically.
      */
     @Override
-    public List<String> FilterSymptoms() {
+    public List<String> filterSymptoms() {
 
         List<String> result;
         Map<String, Integer> oneness = new HashMap<>();

@@ -5,5 +5,5 @@ import java.io.IOException;
 
 public interface ISymptomWriter {
 
-    void WriteFile () throws IOException;
+    void writeFile() throws IOException;
 }

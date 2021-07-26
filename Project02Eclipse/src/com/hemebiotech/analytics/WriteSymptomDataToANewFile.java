@@ -18,7 +18,7 @@ public class WriteSymptomDataToANewFile implements ISymptomWriter {
     }
 
     @Override
-    public void WriteFile() throws IOException {
+    public void writeFile() throws IOException {
 
         Files.write(Paths.get("result.out"), symptoms);
         /**

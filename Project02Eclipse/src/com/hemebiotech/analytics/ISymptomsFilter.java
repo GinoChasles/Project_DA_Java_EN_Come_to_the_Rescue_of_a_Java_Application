@@ -4,5 +4,5 @@ import java.util.List;
 
 public interface ISymptomsFilter {
 
-    List<String> FilterSymptoms();
+    List<String> filterSymptoms();
 }

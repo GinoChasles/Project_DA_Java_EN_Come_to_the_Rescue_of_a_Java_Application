@@ -13,9 +13,9 @@ public class AnalyticsCounter {
 	 */
 	public static void main(String args[]) throws Exception {
 
-		List<String> result = new ReadSymptomDataFromFile(filepath).GetSymptoms();
-		List<String> result2 = new FilterSymptomsData(result).FilterSymptoms();
-		new WriteSymptomDataToANewFile(result2).WriteFile();
+		List<String> result = new ReadSymptomDataFromFile(filepath).getSymptoms();
+		List<String> result2 = new FilterSymptomsData(result).filterSymptoms();
+		new WriteSymptomDataToANewFile(result2).writeFile();
 
 
 	}
